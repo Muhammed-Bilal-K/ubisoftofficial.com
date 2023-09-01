@@ -1,0 +1,621 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+h10{
+    color: black;
+}
+
+.somespecialbtn{
+    border: none;
+    background: #d80388;
+    color: white;
+    padding: 16px 54px;
+    border-radius: 40px;
+    margin: 4rem 10rem;
+    font-weight: 700;
+}
+
+.someofbbbtn{
+    border: none;
+    background: #d80388;
+    color: white;
+    padding: 13px 50px;
+    border-radius: 40px;
+    margin: 2rem 2rem;
+    font-weight: 700;
+}
+
+.someinbtn{
+    background-color: rgb(0, 110, 245);
+    border: 3px solid rgb(0, 110, 245);
+    color: rgb(255, 255, 255);
+    padding: 16px 36px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    border-radius: 30px;
+    margin: 57px 243px;
+}
+
+.atagspecial{
+    font-family: ubisoft_sans, sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    font-size: 1em;
+    line-height: 1.25em;
+    letter-spacing: 0em;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size:12px;
+}
+
+.atspecialp{
+    margin-left: 1rem;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.firstPage .header-section .Header-Tags {
+    position: relative;
+    flex-direction: row;
+    position: relative;
+    display: flex;
+}
+
+.firstPage .header-section .smal:hover .dropdown-content{
+    display: block;
+}
+
+.firstPage .header-section .Header-Tags .dropdown-content {
+    display: none;
+    right: -30rem;
+    left: -27rem;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 3.5rem;
+    height: 40rem;
+}
+.firstPage .header-section .Header-Tags .first-arrow-global-image{
+    width: 41rem;
+}
+
+.firstPage .header-section .Header-Tags .sub-second-arrow{
+    padding: 1rem 1rem;
+    background-color: #ece7e7;
+    width: 14.5rem;
+    border: 1px solid;
+}
+
+.firstPage .header-section .Header-Tags .second-arrow-image{
+    width: 7rem;
+    margin-left: 42px;
+}
+
+.firstPage .header-section .Header-Tags .ExploreIMG{
+    margin: 2rem 0px;
+}
+.firstPage .header-section .Header-Tags .addds{
+    margin-left: -15px;
+}
+
+.firstPage .header-section .Header-Tags .exgame{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: -1rem;
+}
+
+.firstPage .header-section .Header-Tags .ExploreIMG{
+    width: 40%;
+}
+
+.firstPage .header-section .smal{
+    height: 57px;
+    padding-top: 1rem;
+}
+
+.firstPage .header-section .Header-Tags .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.firstPage .header-section .Header-Tags .dropdown-content P {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid black;
+}
+
+.firstPage .header-section .Header-Tags .dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.firstPage .header-section .smal:hover{
+    background-color: #ffffff;
+}
+
+.firstPage .header-section .smal:hover .expo{
+    color: #000;
+}
+
+.firstPage .header-section .smal .allsection{
+    padding: 2rem 4rem;
+    color: black;
+}
+.firstPage .header-section .smal .allsection img{
+    width: 14rem;
+}
+.firstPage .header-section .smal .allsection .special{
+    width: 36rem;
+    height: 18rem;
+    margin-top: 1rem;
+    padding-top: 0;
+}
+
+.firstPage {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.firstPage .Header-image img {
+    width: 100px;
+    height: 57px;
+    color: white;
+    margin-right: 20px;
+}
+
+.firstPage .Header-Tags a {
+    text-decoration: none;
+    color: white;
+    margin: 0 34px;
+    font-weight: 700;
+    font: bold;
+}
+
+.firstPage .Header-search-logo a {
+    margin-right: 57px;
+}
+
+.firstpageImage {
+    background-image: url(../XDefiant.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.firstpageImage h1 {
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    top: 22rem;
+    left: 38rem;
+    font-family: 'Lobster', cursive;
+    font-family: 'MuseoModerno', cursive;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-weight: 700;
+}
+
+.firstpageImage p {
+    position: absolute;
+    left: 50;
+    top: 27rem;
+    left: 16%;
+    letter-spacing: 3px;
+    color: wheat;
+    font-weight: 700;
+}
+
+.firstPage .firstpageImage .btnofbutton {
+    top: 33rem;
+    left: 29rem;
+    position: absolute;
+}
+
+
+.firstPage .firstpageImage .btnofbutton a {
+    background-color: #b89611;
+    padding: 14px 75px;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+    margin-left: 27px;
+}
+
+.firstPage .firstpageImage .game-name {
+    position: absolute;
+    left: 40rem;
+    top: 38rem;
+}
+
+.firstPage .ubisoft h2 {
+    color: white;
+    position: absolute;
+    left: -22px;
+    padding: 20px 55px;
+    top: 57px;
+    background: #0d6efd;
+    font-weight: 800;
+    transform: skew(-29deg);
+}
+
+.testi {
+    margin-top: -122px;
+}
+
+.testi .row .alighn {
+    text-align: center;
+}
+
+.testi .row h2 {
+    color: white;
+    font-size: 1;
+    font-weight: 700;
+    margin-left: 30px;
+    font-size: 1rem;
+    opacity: 0.6;
+}
+
+.Second-layout {
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.Second-layout .sub-header h1 {
+    font-weight: 600;
+    margin: 3rem 25rem;
+}
+
+.Second-layout .sub-header .mx {
+    max-width: 1460px;
+}
+
+.Second-layout .game-center img {
+    width: 13rem;
+    height: 18rem;
+    margin-top: 18px;
+}
+
+.Second-layout .view-center a {
+    text-decoration: none;
+    padding: 20px 84px;
+    color: white;
+    background: #d80388;
+    border-radius: 30px;
+    top: 35rem;
+    left: 38rem;
+    position: absolute;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.Second-layout .view-center a:hover {
+    background: white;
+    color: #d80388;
+    border: 2px solid #d80388;
+}
+
+.newsabout {
+    width: 100%;
+    height: 170vh;
+    background-color: rgb(254, 250, 244);
+}
+
+.newsabout .latest {
+    margin-top: 100px;
+
+}
+
+.newsabout .latest h1 {
+    margin: 0 540px;
+    font-size: 1.9rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    padding-top: 3rem;
+}
+
+.newsabout .sub-act {
+    margin-left: 20rem;
+}
+
+.newsabout .sub-act a {
+    text-decoration: none;
+    color: rgb(254, 78, 107);
+    margin: 0 13px;
+}
+
+.newsabout .latest .ubisoftlogo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.newsabout .latest .op {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 69px;
+}
+
+.newsabout .latest .sub-ubisoft {
+    padding-left: 40px;
+}
+.newsabout .latest .sub-ubisoft h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.newsabout .latest .view-center {
+    padding-top: 10rem;
+    padding-left: 32rem;
+}
+
+.newsabout .latest .view-center a {
+    text-decoration: none;
+    padding: 20px 84px;
+    color: white;
+    background: #d80388;
+    border-radius: 30px;
+}
+
+.storeabou .newlatest .gamesection {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.storeabou .newlatest h2 {
+    color: rgb(20, 17, 17);
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 2rem 32rem;
+}
+
+.storeabou .newlatest .gamesection img {
+    width: 26rem;
+    height: 35rem;
+    border-radius: 20px;
+}
+
+.storeabou .newlatest .gamesection h3 {
+    line-height: 28px;
+    position: absolute;
+    color: white;
+    font-weight: 700;
+    padding: 2rem 3.4rem;
+    top: 0rem;
+    text-align: center;
+    border-radius: 0 0px 22px 22px;
+    background: linear-gradient(180deg, #000 0, transparent);
+}
+
+.special {
+    background-color: rgb(254, 250, 244);
+    margin-top: 5rem;
+    padding-top: 3rem;
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.special .command .xbox img {
+    height: 29rem;
+}
+
+.special .command .xbox h3 {
+    position: absolute;
+    margin: 10p;
+    bottom: -0.6rem;
+    top: 19rem;
+    background-color: #00000096;
+}
+
+.footpad {
+    height: 65vh;
+    width: 100%;
+    background-color: #091225;
+    position: relative;
+}
+
+.footpad .smallboxdown {
+    width: 3%;
+    position: absolute;
+    height: 9%;
+    background: #ffffff;
+    z-index: 100;
+    top: -1.2%;
+    transform: translateX(-50%);
+    rotate: 45deg;
+    left: 50%;
+}
+
+.footpad .custompad {
+    padding-top: 45px;
+}
+
+.footpad .custompad .maninmiddle {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+}
+
+.footpad .custompad img {
+    width: 505px;
+    height: 284px;
+}
+
+.footpad .custompad .adjust {
+    padding-top: 2rem;
+    padding-left: 7rem;
+}
+
+.footpad .custompad .adjust h1 {
+    font-size: 3.875rem;
+    font-weight: 600;
+    color: white;
+    line-height: 2.875rem;
+    letter-spacing: 0;
+    text-align: left;
+    padding-top: 1rem;
+
+}
+
+.footpad .custompad .adjust h5 {
+    font-size: 1.75rem;
+    line-height: 28px;
+    line-height: 1.75rem;
+    letter-spacing: 0;
+    text-align: left;
+    color: white;
+    padding: 1rem 0;
+    padding-bottom: 3rem;
+}
+
+.footpad .custompad .adjust a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #006ef5;
+    border: 2px solid #006ef5;
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 0.8rem 4rem;
+    transition: 0.3s;
+    font-weight: 900;
+}
+
+.footpad .custompad .adjust a:hover {
+    background-color: #ffffff;
+    border: 2px solid #006ef5;
+    color: #006ef5;
+    transition: 0.3s;
+}
+
+.social-media {
+    font-size: 16px;
+    padding-left: 5rem;
+    height: 4.4rem;
+    padding-top: 1.4rem;
+    font-weight: 500;
+    width: 100%;
+    color: white;
+    background: black;
+}
+
+.social-media .eachofsocial h6 {
+    opacity: 0.5;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.social-media .eachofsocial a {
+    color: black;
+    border-radius: 50%;
+    border-right: 50%;
+    margin: 0 14px;
+    background: rgb(255, 255, 255);
+    padding: 9px 9px;
+}
+
+.footerlast {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 28%;
+    background: rgb(29, 30, 34);
+}
+
+.footerlast .Header-image img {
+    width: 10rem;
+    margin-left: 2.5rem;
+    margin-top: 1.2rem;
+}
+
+.footerlast .ENGLISH {
+    padding-top: 1rem;
+    padding-right: 5rem;
+    justify-content: center;
+    display: flex;
+}
+
+.footerlast .ENGLISH a {
+    width: 43px;
+    font-size: 1.7rem;
+    margin-left: 5px;
+    color: white;
+    margin-top: 1.3rem;
+}
+
+.footerlast .ENGLISH h3 {
+    color: white;
+    margin-left: -6px;
+    padding-top: 30px;
+    font-size: 1.2rem;
+}
+
+.lastin5ilast .midman {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footpad .below-footer {
+    width: 100%;
+    height: 35vh;
+    background: rgb(29, 30, 34);
+    padding: 0 85px;
+}
+
+.footpad .below-footer .midman {
+    display: flex;
+    flex-direction: column;
+}
+
+.footpad .below-footer .midman a {
+    font-size: 0.875em;
+    font-weight: 800;
+    margin: 10px 0;
+    text-decoration: none;
+    line-height: 1.25em;
+    letter-spacing: 0em;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+.footpad .below-footer .midman p {
+    font-size: 0.775em;
+    line-height: 1.25em;
+    letter-spacing: 0em;
+    font-family: ubisoft_sans, sans-serif;
+    font-weight: 400;
+    color: rgb(240, 243, 244);
+    margin: 0px -78px;
+    padding-left: 0px;
+    padding-right: 1px;
+}
